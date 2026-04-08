@@ -31,9 +31,9 @@ const NavBar = () => {
         <li><a>FAQ</a></li>
     </ul>
   </div>
-  <div className="navbar-end">
-    
-    <p>Login</p>
+  <div className="navbar-end gap-3">
+    <img src="/Icon (Stroke).png" alt="" />
+    <p className='font-bold'>Login</p>
     <a className="btn btn-primary rounded-2xl">Get Started</a>
   </div>
 </div>
