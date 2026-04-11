@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "title": "ChatGPT",
+    "description": "Advanced conversational AI for writing, coding, and learning.\nHelps automate tasks and generate human-like responses.",
+    "price": 0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+    "status": "popular",
+    "characteristics": [
+      "Unlimited AI conversations",
+      "Code generation support",
+      "Multi-purpose productivity assistant"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Midjourney",
+    "description": "AI image generator creating artistic visuals from prompts.\nPopular among designers and digital artists.",
+    "price": 10,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Midjourney_Emblem.png",
+    "status": "favourite",
+    "characteristics": [
+      "High-quality AI artwork",
+      "Multiple artistic styles",
+      "Fast image rendering"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "GitHub Copilot",
+    "description": "AI coding assistant that suggests code in real time.\nBoosts developer productivity directly inside IDEs.",
+    "price": 10,
+    "image": "https://github.githubassets.com/images/modules/site/copilot/copilot.png",
+    "status": "popular",
+    "characteristics": [
+      "Real-time code suggestions",
+      "Supports many programming languages",
+      "IDE integration"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Notion AI",
+    "description": "AI-powered writing and productivity assistant.\nIntegrated directly into the Notion workspace.",
+    "price": 8,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
+    "status": "mostwanted",
+    "characteristics": [
+      "Smart document generation",
+      "Meeting notes automation",
+      "Content summarization"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Runway ML",
+    "description": "AI video editing and content generation platform.\nCreate videos using text prompts and AI tools.",
+    "price": 0,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS963-3n2HMFdshUo-2dy9QFo8KcXLBKTuUPA&s",
+    "status": "New",
+    "characteristics": [
+      "Text-to-video generation",
+      "AI background removal",
+      "Creative visual effects"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Perplexity AI",
+    "description": "AI-powered search engine with cited answers.\nDesigned for research and fast knowledge discovery.",
+    "price": 0,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKimxGbRw6a4bs9LbyNdArX3tltapwLsUtzQ&s",
+    "status": "favourite",
+    "characteristics": [
+      "Source-backed answers",
+      "Real-time web search",
+      "Research assistance tools"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Jasper AI",
+    "description": "AI writing assistant focused on marketing content.\nHelps create blogs, ads, and social media posts.",
+    "price": 39,
+    "image": "https://logovectorseek.com/wp-content/uploads/2023/06/jasper-ai-inc-logo-vector.png",
+    "status": "popular",
+    "characteristics": [
+      "50+ writing templates",
+      "Marketing content generation",
+      "Brand voice customization"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Leonardo AI",
+    "description": "AI platform for generating game assets and images.\nUsed widely by creators and game designers.",
+    "price": 0,
+    "image": "https://images.seeklogo.com/logo-png/61/1/leonardo-ai-logo-png_seeklogo-619354.png",
+    "status": "mostwanted",
+    "characteristics": [
+      "Game asset generation",
+      "High-resolution outputs",
+      "Custom AI models"
+    ]
+  }
+]

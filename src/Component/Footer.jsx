@@ -3,9 +3,9 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-<footer>
+<footer className="bg-neutral">
 
-  <div className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 pr-0 pl-20">
+  <div className="footer sm:footer-horizontal text-neutral-content p-10 pr-0 pl-28">
     <nav>
       <h1 className="text-3xl font-bold">DigiTools</h1>
       <p className="font-">Premium digital tools for creators, <br /> professionals, and businesses. Work smarter <br /> with our suite of powerful tools.</p>
@@ -40,6 +40,20 @@ const Footer = () => {
     </div>
 </nav>
   </div>
+
+  <hr className="border-t-0.5 pb-5 border-gray-700 ml-26 mr-50" />
+
+  <div className="flex justify-between pl-27 pr-52">
+      <div>
+        <p className="text-white">© 2026 Digitools. All rights reserved.</p>
+      </div>
+      <div className="flex gap-2">
+        <p className="text-white">Privacy Policy</p>
+        <p className="text-white"> Terms of Service </p>
+        <p className="text-white">Cookies</p>
+      </div>
+  </div>
+
   
 </footer>
   
