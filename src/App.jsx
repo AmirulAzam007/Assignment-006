@@ -7,6 +7,9 @@ import Stats from "./Component/Stats"
 import ThirdBanner from "./Component/ThirdBanner"
 import Models from "./Component/Models"
 
+import Tabs from "./Component/Tabs"
+import { useState } from "react"
+import Carts from "./Component/Carts"
 const getmodels = async () => {
   const res = await fetch("/modelsdata.json")
   return res.json()
@@ -16,13 +19,21 @@ const modelpromise = getmodels()
 
 function App() {
 
+  const [cardInfo, setCardInfo] = useState("model")
+
+  const [carts, setCarts] = useState([])
+
 
   return (
     <>
        <NavBar></NavBar>
        <Banner></Banner>
        <Stats></Stats>
-       <Models modelpromise={modelpromise}></Models>
+       <Tabs setCardInfo={setCardInfo} carts={carts}></Tabs>
+
+      {cardInfo === "model" && <Models modelpromise={modelpromise} carts={carts} setCarts={setCarts} ></Models>}
+      {cardInfo === "cart" && <Carts carts={carts} setCarts={setCarts}></Carts>}
+
        <SecondBanner></SecondBanner>
        <ThirdBanner></ThirdBanner>
        <FourthBanner></FourthBanner>
