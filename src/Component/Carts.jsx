@@ -1,4 +1,5 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const Carts = ({carts, setCarts}) => {
 
@@ -6,12 +7,14 @@ const Carts = ({carts, setCarts}) => {
 
     const handleCheckout = () => {
         setCarts([])
+        toast.success("Congratulations")
     }
 
     const handleDelete = (item) => {
         const filterArray = carts.filter(a => a.id !== item.id)
         console.log("fgdfgd")
         setCarts(filterArray)
+        toast.info("Item Deleted")
     }
     
     return (
