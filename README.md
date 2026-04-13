@@ -1,16 +1,19 @@
-# React + Vite
+## 🚀 Digital Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##🧠 About the Project
 
-Currently, two official plugins are available:
+Digital Platform is a modern web application where users can explore and purchase AI-powered tools and products. It offers a clean UI, smooth interactions, and a curated collection of digital solutions designed to boost productivity and creativity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ⚙️ Technologies Used
+React.js
+Tailwind CSS
+DaisyUI
+JavaScript (ES6+)
+React-Toastify (NPM Package)
+JSON (for product data)
 
-## React Compiler
+##✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛒 Add to Cart Functionality – Users can easily add AI products to their cart with instant feedback using toast notifications.
+🎯 Dynamic UI with Status Badges – Products display different statuses (Popular, New, Favourite, etc.) with visually appealing badges.
+📱 Responsive Design – Fully responsive layout that works smoothly across mobile, tablet, and desktop devices.

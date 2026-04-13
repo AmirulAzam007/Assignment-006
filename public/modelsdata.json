@@ -5,7 +5,7 @@
     "description": "Advanced conversational AI for writing, coding, and learning.\nHelps automate tasks and generate human-like responses.",
     "price": 12,
     "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
-    "status": "popular",
+    "status": "Popular",
     "characteristics": [
       "Unlimited AI conversations",
       "Code generation support",
@@ -18,7 +18,7 @@
     "description": "AI image generator creating artistic visuals from prompts.\nPopular among designers and digital artists.",
     "price": 10,
     "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Midjourney_Emblem.png",
-    "status": "favourite",
+    "status": "Favourite",
     "characteristics": [
       "High-quality AI artwork",
       "Multiple artistic styles",
@@ -31,7 +31,7 @@
     "description": "AI coding assistant that suggests code in real time.\nBoosts developer productivity directly inside IDEs.",
     "price": 10,
     "image": "https://github.githubassets.com/images/modules/site/copilot/copilot.png",
-    "status": "popular",
+    "status": "Bestseller",
     "characteristics": [
       "Real-time code suggestions",
       "Supports many programming languages",
@@ -44,7 +44,7 @@
     "description": "AI-powered writing and productivity assistant.\nIntegrated directly into the Notion workspace.",
     "price": 8,
     "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
-    "status": "mostwanted",
+    "status": "Mostwanted",
     "characteristics": [
       "Smart document generation",
       "Meeting notes automation",
@@ -70,7 +70,7 @@
     "description": "AI-powered search engine with cited answers.\nDesigned for research and fast knowledge discovery.",
     "price": 5,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKimxGbRw6a4bs9LbyNdArX3tltapwLsUtzQ&s",
-    "status": "favourite",
+    "status": "Bestseller",
     "characteristics": [
       "Source-backed answers",
       "Real-time web search",
@@ -83,7 +83,7 @@
     "description": "AI writing assistant focused on marketing content.\nHelps create blogs, ads, and social media posts.",
     "price": 39,
     "image": "https://logovectorseek.com/wp-content/uploads/2023/06/jasper-ai-inc-logo-vector.png",
-    "status": "popular",
+    "status": "Popular",
     "characteristics": [
       "50+ writing templates",
       "Marketing content generation",
@@ -96,7 +96,7 @@
     "description": "AI platform for generating game assets and images.\nUsed widely by creators and game designers.",
     "price": 7,
     "image": "https://images.seeklogo.com/logo-png/61/1/leonardo-ai-logo-png_seeklogo-619354.png",
-    "status": "mostwanted",
+    "status": "Mostwanted",
     "characteristics": [
       "Game asset generation",
       "High-resolution outputs",

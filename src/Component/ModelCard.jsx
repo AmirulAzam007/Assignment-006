@@ -19,10 +19,35 @@ const ModelCard = ({model, carts, setCarts}) => {
             toast.success("Item Added To Cart")
         }
 
+        const color = (item) =>{
+
+            if(item==="Popular")
+            {
+                return "bg-yellow-200 text-yellow-500";
+            }
+            else if(item==="New"){
+                return "bg-green-200 text-green-500";
+            }
+            else if(item==="Bestseller"){
+                return "bg-purple-200 text-purple-500";
+            }
+            else if(item==="Mostwanted"){
+                return "bg-blue-200 text-blue-500";
+            }
+            else if(item==="Favourite"){
+                return "bg-red-200 text-red-500";
+            }
+
+        }
+
     return (
         <div className=' space-y-3 shadow-lg rounded-2xl  border-gray-200 border-2 p-4'>
 
-                    <div className='flex justify-start pl-3 pt-3 rounded-full'>
+                   <div className='flex justify-end mb-0'>
+                    <button className={`text-sm font-bold  px-2 py-1 mb-0  rounded-4xl ${color(model.status)}`}>{model.status}</button>
+                   </div>
+
+                    <div className='flex justify-start pl-3 rounded-full'>
                         <img className='h-15 w-15 rounded-full border-2 border-gray-200 p-2' src={model.image} alt="" />
                     </div>
 
