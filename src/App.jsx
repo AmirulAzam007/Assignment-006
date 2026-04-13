@@ -26,10 +26,10 @@ function App() {
 
   return (
     <>
-       <NavBar></NavBar>
+       <NavBar carts={carts}></NavBar>
        <Banner></Banner>
        <Stats></Stats>
-       <Tabs setCardInfo={setCardInfo} carts={carts}></Tabs>
+       <Tabs setCardInfo={setCardInfo} carts={carts} cardInfo={cardInfo}></Tabs>
 
       {cardInfo === "model" && <Models modelpromise={modelpromise} carts={carts} setCarts={setCarts} ></Models>}
       {cardInfo === "cart" && <Carts carts={carts} setCarts={setCarts}></Carts>}

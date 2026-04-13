@@ -1,6 +1,8 @@
 import React from 'react';
 
-const Tabs = ({setCardInfo, carts}) => {
+const Tabs = ({setCardInfo, carts, cardInfo}) => {
+
+    console.log(carts)
     return (
         <div>
 
@@ -10,8 +12,8 @@ const Tabs = ({setCardInfo, carts}) => {
             </div>
 
             <div className="tabs tabs-box justify-center bg-transparent pb-10">
-              <input type="radio" name="my_tabs_1" className="tab rounded-full w-35" aria-label="Products" onClick={()=> setCardInfo("model")} defaultChecked />
-              <input type="radio" name="my_tabs_1" className="tab rounded-full w-35" aria-label={`Cart (${carts.length})`} onClick={()=> setCardInfo("cart")} />
+              <input type="radio" name="my_tabs_1" className={`rounded-full w-35 ${cardInfo==="cart" ? "tab bg-white" : "tab bg-purple-500"}`} aria-label="Products" onClick={()=> setCardInfo("model")} defaultChecked />
+              <input type="radio" name="my_tabs_1" className={`rounded-full w-35 ${cardInfo==="model" ? "tab bg-white" : "tab bg-purple-500"}`} aria-label={`Cart (${carts.length})`} onClick={()=> setCardInfo("cart")} />
             </div>
         </div>
     );
