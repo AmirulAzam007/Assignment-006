@@ -5,7 +5,7 @@ const Footer = () => {
         <div>
 <footer className="bg-neutral">
 
-  <div className="footer sm:footer-horizontal text-neutral-content p-10 pr-0 pl-28">
+  <div className="footer sm:footer-horizontal text-neutral-content p-10 pl-20 w-[90%]  mx-auto">
     <nav>
       <h1 className="text-3xl font-bold">DigiTools</h1>
       <p className="font-">Premium digital tools for creators, <br /> professionals, and businesses. Work smarter <br /> with our suite of powerful tools.</p>
@@ -31,7 +31,7 @@ const Footer = () => {
     <a className="link link-hover">Cookie policy</a>
   </nav>
 
-<nav>
+<nav className='pr-0'>
     <p>Social Links</p>
     <div className="space-x-2">
         <button><i class="fa-brands fa-facebook"></i></button>
@@ -41,9 +41,9 @@ const Footer = () => {
 </nav>
   </div>
 
-  <hr className="border-t-0.5 pb-5 border-gray-700 ml-26 mr-50" />
+  <hr className=" mx-auto border-t-0.5 pb-5 border-gray-700 w-[90%]" />
 
-  <div className="flex justify-between pl-27 pr-52">
+  <div className="flex justify-between pl-27 pr-52 w-[85%] mx-auto pb-2">
       <div>
         <p className="text-white">© 2026 Digitools. All rights reserved.</p>
       </div>

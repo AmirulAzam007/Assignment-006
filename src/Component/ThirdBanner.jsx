@@ -2,16 +2,16 @@ import React from 'react';
 
 const ThirdBanner = () => {
     return (
-        <div className='h-150 w-full py-'>
+        <div className='w-full mx-auto pb-15'>
 
             <div className="pt-15 space-y-2">
                 <h1 className=" grid text-5xl items-center justify-center font-bold">Simple, Transparent Pricing</h1>
                 <p className="grid items-center justify-center text-gray-500">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
 
-            <div className="cards flex justify-center gap-15 pt-10">
+            <div className="cards mx-auto w-[80%] grid md:grid-cols-2 lg:grid-cols-3 gap-10 pt-10">
 
-    <div className="card w-96 bg-base-100 shadow-sm">
+    <div className="card w-full bg-base-100 shadow-sm">
   <div className="card-body">
     <span className="badge badge-xs badge-warning">Most Popular</span>
     <div className="flex justify-between">
@@ -56,7 +56,7 @@ const ThirdBanner = () => {
 
 
 
-           <div className="card w-96 bg-purple-500 shadow-sm">
+           <div className="card w-full bg-purple-500 shadow-sm">
   <div className="card-body">
     <span className="badge badge-xs badge-warning">Most Popular</span>
     <div className="flex justify-between">
@@ -99,7 +99,7 @@ const ThirdBanner = () => {
 
 
 
-            <div className="card w-96 bg-base-100 shadow-sm">
+            <div className="card w-full bg-base-100 shadow-sm">
   <div className="card-body">
     <span className="badge badge-xs badge-warning">Most Popular</span>
     <div className="flex justify-between">

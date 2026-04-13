@@ -18,7 +18,7 @@ const Carts = ({carts, setCarts}) => {
     }
     
     return (
-        <div className='py-10 shadow-xl rounded-2xl mx-45 mb-10 mt-2 space-y-2 shadow-gray-300 border-gray-200 border-2'>
+        <div className='py-10 mx-auto shadow-xl rounded-2xl max-w-7xl mx-45 mb-10 mt-2 space-y-2 shadow-gray-300 border-gray-200 border-2'>
 
             <h1 className='font-bold text-xl px-20'>Your Cart</h1>
 
@@ -56,7 +56,7 @@ const Carts = ({carts, setCarts}) => {
                <div className='font-bold text-2xl'>${totalPrice}</div>
            </div>
 
-             <button onClick={handleCheckout} class="btn text-white bg-purple-500 rounded-4xl mx-20 w-346 p-5 font-bold h-10">Proceed To Checkout</button></>
+             <button onClick={handleCheckout} class="btn mx-auto flex items-center w-[87%] text-white bg-purple-500 rounded-4xl p-5 font-bold h-10">Proceed To Checkout</button></>
             }
 
     

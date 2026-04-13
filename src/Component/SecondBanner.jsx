@@ -2,17 +2,17 @@ import React from 'react';
 
 const SecondBanner = () => {
     return (
-        <div className='h-130 bg-[#F9FAFC] w-full py-'>
+        <div className='bg-[#F9FAFC] mx-auto pb-20'>
 
             <div className="pt-15 space-y-2">
                 <h1 className=" grid text-5xl items-center justify-center font-bold">Get Started in 3 Steps</h1>
                 <p className="grid items-center justify-center text-gray-500">Start using premium digital tools in minutes, not hours.</p>
             </div>
 
-            <div className="cards flex justify-center gap-15 pt-10">
+            <div className="cards mx-auto gap-15 pt-10 grid md:grid-cols-2 lg:grid-cols-3 w-[80%]">
 
                 <div>
-                <div className="card bg-base-100 w-96 shadow-sm">
+                <div className="card bg-base-100 w-full shadow-sm">
 
                     <div className=" flex justify-end mt-3 mr-3">
 
@@ -32,7 +32,7 @@ const SecondBanner = () => {
             </div>
 
             <div>
-                <div className="card bg-base-100 w-96 shadow-sm">
+                <div className="card bg-base-100 w-full shadow-sm">
 
                     <div className=" flex justify-end mt-3 mr-3">
 
@@ -52,7 +52,7 @@ const SecondBanner = () => {
             </div>
 
             <div>
-                <div className="card bg-base-100 w-96 shadow-sm">
+                <div className="card bg-base-100 w-full shadow-sm">
 
                     <div className=" flex justify-end mt-3 mr-3">
 
